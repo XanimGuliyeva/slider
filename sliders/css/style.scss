@@ -1,0 +1,30 @@
+#slider{
+    position: relative;
+    overflow: hidden;
+    ul{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        list-style: none;
+        li{
+            position: relative;
+            display: block;
+            width: 1260px;
+            float: left;
+            height: 300px;
+        }
+    }
+    .control_next,.control_prev{
+        position: absolute;
+        top: 50%;
+        background-color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        z-index: 999;
+    }
+    .control_prev{
+        right: 0;
+    }
+}
